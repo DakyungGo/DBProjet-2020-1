@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/traditional_wallpaper">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/select_museum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:entries="@array/국립박물관"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#ffffff"
+            android:id="@+id/select_itemtype"
+            android:entries="@array/ITEM"/>
+
+        <ImageButton
+            android:id="@+id/start_sight"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/find"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#92FFFFFF">
+
+        <TextView
+            android:id="@+id/tv_museum_location"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text = "위치"/>
+
+        <TextView
+            android:id="@+id/tv_museum_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text = "연락처 "/>
+
+        <TextView
+            android:id="@+id/tv_museum_nor"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:text = "보유 유물 수"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/gotoWebsite"
+            android:background="@drawable/to_details"/>
+
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/relic_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="35dp"
+        android:background="#92FFFFFF"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/event_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#92FFFFFF"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/book_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="20dp"
+        android:background="#92FFFFFF"
+        android:visibility="gone"/>
+
+</LinearLayout>

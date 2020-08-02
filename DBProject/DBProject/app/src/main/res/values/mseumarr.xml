@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="국립박물관">
+        <item>국립공주박물관</item>
+        <item>국립광주박물관</item>
+        <item>국립대구박물관</item>
+        <item>국립부여박물관</item>
+        <item>국립전주박물관</item>
+        <item>국립제주박물관</item>
+        <item>국립진주박물관</item>
+        <item>국립청주박물관</item>
+        <item>국립춘천박물관</item>
+
+    </string-array>
+
+</resources>

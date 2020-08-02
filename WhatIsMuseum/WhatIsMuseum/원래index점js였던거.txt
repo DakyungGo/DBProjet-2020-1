@@ -1,0 +1,16 @@
+var mysql = require('mysql');
+var connection = mysql.createConnection({
+    host : '127.0.0.1',
+    user : 'museum_manager',
+    password : 'museum_manager',
+    database : 'dbproject'
+});
+
+connection.connect();
+
+connection.query('SELECT * FROM museum', function(error, rows, fields){
+    if(error) throw error;
+    console.log('Museum info is: ', rows);
+});
+
+connection.end();

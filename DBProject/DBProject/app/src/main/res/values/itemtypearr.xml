@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ITEM">
+        <item>유물</item>
+        <item>이벤트</item>
+        <item>출판물</item>
+    </string-array>
+</resources>

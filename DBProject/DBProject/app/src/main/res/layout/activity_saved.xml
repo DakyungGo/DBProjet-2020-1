@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/traditional_wallpaper"
+    android:id="@+id/list_layout">
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/user_id"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="dakyung님 \n 안녕하세요:)"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="35dp"
+    android:background="#92FFFFFF"
+    android:text="저장한 항목"
+    android:textSize="20dp"
+    android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:background="#92FFFFFF"
+        android:text="이벤트"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <ListView
+        android:id="@+id/saved_event_list"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#92FFFFFF"
+        android:focusable="false"
+        android:clickable="false"
+        android:visibility="invisible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:background="#92FFFFFF"
+        android:text="출판물"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+    <ListView
+        android:id="@+id/saved_book_list"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="35dp"
+        android:background="#92FFFFFF"
+        android:focusable="false"
+        android:clickable="false"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>
